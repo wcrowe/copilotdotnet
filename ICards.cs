@@ -1,5 +1,7 @@
+namespace copilotdotnet; 
+
 interface ICards{
-    string Suit { get; set; }
-    string Rank { get; set; }
+    Cards.CardSuit Suit { get; set; }
+    Cards.CardRank Rank { get; set; }
     int Value { get; set; }
 }
